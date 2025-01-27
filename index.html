@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FunTime!!! - A Random Player Generator App</title>
+</head>
+
+<body>
+    <header class="header">
+        <figure class="logoContainer">
+            <img src="img/fun-time-logo.png" alt="logo">
+        </figure>
+        <a href="https://github.com/affanshaikh-dev" target="_blank" class="githubIcon">
+            <i class="ri-github-fill"></i>
+        </a>
+    </header>
+
+    <main class="main">
+        <section class="wrapper">
+            <div class="inputPlayerDetails">
+                <div class="inputContainer uniCss">
+                    <div class="inputs">
+                        <input type="text" placeholder="Enter How Many Players are there!" id="inputNumber">
+                        <button class="addNumberPly">+</button>
+                    </div>
+                    <div class="inputBtns">
+                        <button class="spin">SPIN</button>
+                        <button class="reset">Reset</button>
+                    </div>
+                </div>
+                <div class="totalPlayers uniCss">
+                    <p>Players: <span class="playerNumber"> 05</span></p>
+                </div>
+            </div>
+            <div class="outputPlayersDetails">
+                <div class="generatedNumber uniCss">
+                    <h3>Generated Number</h3>
+                    <p class="playerPoints">2</p>
+                </div>
+                <div class="playersListing uniCss">
+                    <h3>Player Place</h3>
+                    <ul class="playerList">
+                        <li><span class="generatedNumbers">2 </span><span class="playerName">Player Name</span></li>
+                        <li><span class="generatedNumbers">2 </span><span class="playerName">Player Name</span></li>
+                        <li><span class="generatedNumbers">2 </span><span class="playerName">Player Name</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
